@@ -28,3 +28,24 @@ artists - artists in music database
 time - timestamps of records in songplays broken down into specific units
 
 Dimension tables makes is easy for you to update details of users and artists minimizing time and effort rather than updating in every log.
+
+## ETL pipeline
+
+# Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine.
+
+## Prerequisites
+
+What things you need to install and how to install them
+
+python 2.7 or above
+pip install psycopg2 (PostgreSQL database adapter for the Python)
+
+## Scripts
+
+Run sql_queries.py (it contains all the sql queries that is needed to create and drop tables, and insert data)
+Then run create_tables.py
+and lastly run etl.py to complete the ETL process.
+
+test.ipynb can be used to check and analyze data in the database tables.

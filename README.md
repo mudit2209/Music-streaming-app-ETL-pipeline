@@ -40,6 +40,7 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install and how to install them
 
 python 2.7 or above
+
 PostgreSQL database adapter for the Python psycopg2
 <p><code>pip install psycopg2</code></p>
 

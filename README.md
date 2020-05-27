@@ -29,9 +29,9 @@ time - timestamps of records in songplays broken down into specific units
 
 Dimension tables makes is easy for you to update details of users and artists minimizing time and effort rather than updating in every log.
 
-## ETL pipeline
+# ETL pipeline
 
-# Getting Started
+## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine.
 
@@ -40,7 +40,8 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install and how to install them
 
 python 2.7 or above
-pip install psycopg2 (PostgreSQL database adapter for the Python)
+PostgreSQL database adapter for the Python psycopg2
+<p><code>pip install psycopg2</code></p>
 
 ## Scripts
 

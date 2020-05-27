@@ -41,7 +41,7 @@ What things you need to install and how to install them
 
 python 2.7 or above
 
-PostgreSQL database adapter for the Python psycopg2
+PostgreSQL database adapter for the python - psycopg2
 <p><code>pip install psycopg2</code></p>
 
 ## Scripts

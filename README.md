@@ -45,7 +45,12 @@ pip install psycopg2 (PostgreSQL database adapter for the Python)
 ## Scripts
 
 Run sql_queries.py (it contains all the sql queries that is needed to create and drop tables, and insert data)
-Then run create_tables.py
-and lastly run etl.py to complete the ETL process.
+<code> python sql_queries.py <\code>
+  
+Then run create_tables.py to create schema and tables
+<code> python create_tables.py <\code>
+
+and lastly run etl.py to complete the ETL process
+<code> python etl.py <\code>
 
 test.ipynb can be used to check and analyze data in the database tables.
